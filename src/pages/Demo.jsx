@@ -7,7 +7,7 @@ export const Demo = () => {
   const { store, dispatch } = useGlobalReducer()
 
   return (
-    <div className="container">
+    <div className="container" style={{backgroundColor: "#0d1117"}}>
       <ul className="list-group">
         {/* Map over the 'todos' array from the store and render each item as a list element */}
         {store && store.todos?.map((item) => {
