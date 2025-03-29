@@ -108,8 +108,10 @@ const CreateContact = () => {
   <button type="button" className="btn btn-primary" onClick={handleRegisterContact}>
     Registrar Contacto
   </button>
-  <Link to={"/"}>Regresar</Link>
+  <div className="mt-2">
+    <Link to="/" className="d-block">O regresar a contactos</Link>
   </div>
+</div>
   
 </form>
 
